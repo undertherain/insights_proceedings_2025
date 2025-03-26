@@ -1,0 +1,33 @@
+- title: Opening Remarks
+  start_time: 2025-05-04 09:00:00
+  end_time: 2025-05-04 09:10:00
+- title: "Technical session 1"
+  start_time: 2025-05-04 09:10:00
+  end_time: 2025-05-04 09:50:00
+- title: "Technical session 2"
+  start_time: 2025-05-04 09:50:00
+  end_time: 2025-05-04 10:30:00
+- title: Coffee Break
+  start_time: 2025-05-04 10:30:00
+  end_time: 2025-05-04 11:30:00
+- title: "Invited Talk 1"
+  start_time: 2025-05-04 11:30:00
+  end_time: 2025-05-04 12:00:00
+- title: Lunch
+  start_time: 2025-05-04 12:30:00
+  end_time: 2025-05-04 14:00:00
+- title: "Technical session  3"
+  start_time: 2025-05-04 14:10:00
+  end_time: 2025-05-04 14:50:00
+- title: "Technical session 4"
+  start_time: 2025-05-04 14:50:00
+  end_time: 2025-05-04 15:30:00
+- title: Coffee Break
+  start_time: 2025-05-04 15:30:00
+  end_time: 2025-05-04 16:00:00
+- title: "Invited Talk 2"
+  start_time: 2025-05-04 16:00:00
+  end_time: 2025-05-04 16:30:00
+- title: Poster Session
+  start_time: 2025-05-04 16:30:00
+  end_time: 2025-05-04 17:30:00
