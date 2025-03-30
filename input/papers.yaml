@@ -1,0 +1,2039 @@
+- Submission ID: '1'
+  Passcode: 1X-A6B6B6C7P6
+  Title: Challenging Assumptions in Learning Generic Text Style Embeddings
+  Authors: Phil Sidney Ostheimer, Marius Kloft and Sophie Fellenz
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: Recent advancements in language representation learning primarily emphasize
+    language modeling for deriving meaningful representations, often neglecting style-specific
+    considerations. This study addresses this gap by creating generic, sentence-level
+    style embeddings crucial for style-centric tasks. Our approach is grounded on
+    the premise that low-level text style changes can compose any high-level style.
+    We hypothesize that applying this concept to representation learning enables the
+    development of versatile text style embeddings. By fine-tuning a general-purpose
+    text encoder using contrastive learning and standard cross-entropy loss, we aim
+    to capture these low-level style shifts, anticipating that they offer insights
+    applicable to high-level text styles. The outcomes prompt us to reconsider the
+    underlying assumptions as the results do not always show that the learned style
+    representations capture high-level text styles.
+  First Submission Date/Time: 27 Jan 2025 14:27:10
+  Last Revision Date/Time: 14 Mar 2025 12:17:14
+  Main Contact Username: philsid
+  Main Contact Title: ''
+  Main Contact Firstname: Phil
+  Main Contact Middle Name: Sidney
+  Main Contact Lastname: Ostheimer
+  Main Contact Affiliation: RPTU Kaiserslautern-Landau
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: ostheimer@cs.uni-kl.de
+  Main Contact Street Address: ''
+  Main Contact City: Kaiserslautern
+  Main Contact State/Province/Region: Rhineland-Palatinate
+  Main Contact Zipcode: ''
+  Main Contact Country Code: DE
+  Main Contact Country Name: Germany
+  Main Contact Biography: ''
+  Authors with Affiliations: Phil Sidney Ostheimer (RPTU Kaiserslautern-Landau); Marius
+    Kloft (RPTU Kaiserslautern-Landau); Sophie Fellenz (RPTU Kaiserslautern-Landau)
+  All Author Emails: ostheimer@cs.uni-kl.de; kloft@cs.uni-kl.de; fellenz@cs.uni-kl.de
+  Link to ARR reviews: ''
+  copyrightSig: PO
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: burkhardt
+    First Name: Sophie
+    Last Name: Fellenz
+    Email: fellenz@cs.uni-kl.de
+    Affiliation: RPTU Kaiserslautern-Landau
+    Presenter: 'No'
+  - Username: kloft
+    First Name: Marius
+    Last Name: Kloft
+    Email: kloft@cs.uni-kl.de
+    Affiliation: RPTU Kaiserslautern-Landau
+    Presenter: 'No'
+  - Username: philsid
+    First Name: Phil
+    Last Name: Ostheimer
+    Email: ostheimer@cs.uni-kl.de
+    Affiliation: RPTU Kaiserslautern-Landau
+    Presenter: 'No'
+- Submission ID: '2'
+  Passcode: 2X-A9H3E8F9B4
+  Title: 'In-Context Learning on a Budget: A Case Study in Token Classification'
+  Authors: Uri Berger, Tal Baumel and Gabriel Stanovsky
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: Few shot in-context learning (ICL) typically assumes access to large annotated
+    training sets. However, in many real world scenarios, such as domain adaptation,
+    there is only a limited budget to annotate a small number of samples, with the
+    goal of maximizing downstream performance. We study various methods for selecting
+    samples to annotate within a predefined budget, focusing on token classification
+    tasks, which are expensive to annotate and are relatively less studied in ICL
+    setups. Across various tasks, models, and datasets, we observe that no method
+    significantly outperforms the others, with most yielding similar results, including
+    random sample selection for annotation. Moreover, we demonstrate that a relatively
+    small annotated sample pool can achieve performance comparable to using the entire
+    training set. We hope that future work adopts our realistic paradigm which takes
+    annotation budget into account.
+  First Submission Date/Time: 27 Jan 2025 21:20:01
+  Last Revision Date/Time: 13 Mar 2025 06:18:20
+  Main Contact Username: uriber
+  Main Contact Title: ''
+  Main Contact Firstname: Uri
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Berger
+  Main Contact Affiliation: The Hebrew University of Jerusalem, University of Melbourne
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: uri.berger2@mail.huji.ac.il
+  Main Contact Street Address: ''
+  Main Contact City: Modi'in
+  Main Contact State/Province/Region: Israel
+  Main Contact Zipcode: ''
+  Main Contact Country Code: IL
+  Main Contact Country Name: Israel
+  Main Contact Biography: 'I''m a PhD candidate in a joint Phd program at the Hebrew
+    University of Jerusalem and the University of Melbourne, advised by Prof. Omri
+    Abend, Dr. Gabriel Stanovsky and Dr. Lea Frermann. I''m interested in cognitively
+    plausible settings of language acquisition, especially those involving multimodality
+    or interactivity.
+
+
+    I did my MSc at the Hebrew University of Jerusalem working with Prof. Ari Rappoport
+    on Spiking Neural Networks.'
+  Authors with Affiliations: Uri Berger (The Hebrew University of Jerusalem, University
+    of Melbourne); Tal Baumel (Microsoft); Gabriel Stanovsky (The Hebrew University
+    of Jerusalem)
+  All Author Emails: uri.berger2@mail.huji.ac.il; tabaumel@microsoft.com; gabriel.satanovsky@gmail.com
+  Link to ARR reviews: ''
+  copyrightSig: Uri Berger
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: gabis1986
+    First Name: Gabriel
+    Last Name: Stanovsky
+    Email: gabriel.satanovsky@gmail.com
+    Affiliation: The Hebrew University of Jerusalem
+    Presenter: 'No'
+  - Username: talbaumel
+    First Name: Tal
+    Last Name: Baumel
+    Email: tabaumel@microsoft.com
+    Affiliation: Microsoft
+    Presenter: 'No'
+  - Username: uriber
+    First Name: Uri
+    Last Name: Berger
+    Email: uri.berger2@mail.huji.ac.il
+    Affiliation: The Hebrew University of Jerusalem, University of Melbourne
+    Presenter: 'No'
+- Submission ID: '3'
+  Passcode: 3X-F4A3C2H7B6
+  Title: Obvious Findings from Sampling Experiments for Sentiment Classification for
+    Varieties of English
+  Authors: Dipankar Srirag, Jordan Painter, Aditya Joshi and Diptesh Kanojia
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: 'Existing benchmarks often fail to account for linguistic diversity, like
+    language variants of English. In this paper, we share our experiences from our
+    ongoing project of building a sentiment classification benchmark for three variants
+    of English: Australian (en-AU), Indian (en-IN), and British (en-UK) English. Using
+    Google Places reviews, we explore the effects of various sampling techniques based
+    on label semantics, review length, and sentiment proportion and report performances
+    on three fine-tuned BERT-based models. Our initial evaluation reveals unsurprising
+    findings: there are performance variations influenced by sample characteristics,
+    label semantics, and language variety. We offer uninteresting insights for researchers
+    to create robust benchmarks, emphasising the importance of diverse sampling, careful
+    label definition, and comprehensive evaluation across linguistic varieties.'
+  First Submission Date/Time: 28 Jan 2025 09:20:05
+  Last Revision Date/Time: 28 Jan 2025 09:20:05
+  Main Contact Username: adityajo
+  Main Contact Title: ''
+  Main Contact Firstname: Aditya
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Joshi
+  Main Contact Affiliation: University of New South Wales
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: '+61435267440'
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: aditya.m.joshi@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Sydney
+  Main Contact State/Province/Region: NSW
+  Main Contact Zipcode: ''
+  Main Contact Country Code: AU
+  Main Contact Country Name: Australia
+  Main Contact Biography: https://www.unsw.edu.au/staff/aditya-joshi
+  Authors with Affiliations: Dipankar Srirag (University of New South Wales); Jordan
+    Painter (University of Surrey); Aditya Joshi (University of New South Wales);
+    Diptesh Kanojia (University of Surrey)
+  All Author Emails: dipankar.srirag@gmail.com; jordanpainter01@gmail.com; aditya.m.joshi@gmail.com;
+    dipteshkanojia@gmail.com
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: dipteshkanojia
+    First Name: Diptesh
+    Last Name: Kanojia
+    Email: dipteshkanojia@gmail.com
+    Affiliation: University of Surrey
+    Presenter: 'No'
+  - Username: adityajo
+    First Name: Aditya
+    Last Name: Joshi
+    Email: aditya.m.joshi@gmail.com
+    Affiliation: University of New South Wales
+    Presenter: 'No'
+  - Username: jordanpainter01
+    First Name: Jordan
+    Last Name: Painter
+    Email: jordanpainter01@gmail.com
+    Affiliation: University of Surrey
+    Presenter: 'No'
+  - Username: srirag
+    First Name: Dipankar
+    Last Name: Srirag
+    Email: dipankar.srirag@gmail.com
+    Affiliation: University of New South Wales
+    Presenter: 'No'
+- Submission ID: '4'
+  Passcode: 4X-J7B6D4J7B7
+  Title: 'Reassessing Graph Linearization for Sequence-to-sequence AMR Parsing: On
+    the Advantages and Limitations of Triple-Based'
+  Authors: "Jeongwoo Kang, Maximin Coavoux, Didier Schwab and C\xE9dric Lopez"
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: 'Sequence-to-sequence models are widely used to train Abstract Meaning
+    Representation (Banarescu et al.,2013, AMR) parsers. To train such models, AMR
+    graphs have to be linearized into a one-line text format. While Penman encoding
+    is widely used for this purpose, we argue that it has limitations: 1) for deep
+    graphs, some closely related nodes are located far apart in the linearized text
+    2) Penman''s tree-based encoding necessitates inverse roles to handle node re-entrancy,
+    doubling the number of relation types to predict. To address these issues, we
+    propose a triple-based linearization method and compare its efficiency by training
+    an AMR parser with both approaches. Although triple is well suited to represent
+    a graph, our results show that it does not yet improve performance on deeper or
+    longer graphs. It suggests room for improvement in its design to better compete
+    with Penman''s concise representation and explicit encoding of a nested graph
+    structure.'
+  First Submission Date/Time: 29 Jan 2025 11:46:48
+  Last Revision Date/Time: 23 Mar 2025 18:16:09
+  Main Contact Username: kangje
+  Main Contact Title: ''
+  Main Contact Firstname: Jeongwoo
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Kang
+  Main Contact Affiliation: "Universit\xE9 Grenoble Alpes"
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: jeongwoo.kang@univ-grenoble-alpes.fr
+  Main Contact Street Address: ''
+  Main Contact City: Grenoble
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: FR
+  Main Contact Country Name: France
+  Main Contact Biography: ''
+  Authors with Affiliations: "Jeongwoo Kang (Universit\xE9 Grenoble Alpes); Maximin\
+    \ Coavoux (CNRS, Univ Grenoble Alpes); Didier Schwab (Univ. Grenoble Alpes); C\xE9\
+    dric Lopez (Emvista)"
+  All Author Emails: jeongwoo.kang@univ-grenoble-alpes.fr; maximin.coavoux@gmail.com;
+    didier.schwab@univ-grenoble-alpes.fr; cedric.lopez@emvista.com
+  Link to ARR reviews: ''
+  copyrightSig: Jeongwoo KANG
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: "C\xE9dric"
+    Last Name: Lopez
+    Email: cedric.lopez@emvista.com
+    Affiliation: Emvista
+    Presenter: 'No'
+  - Username: schwab
+    First Name: Didier
+    Last Name: Schwab
+    Email: didier.schwab@univ-grenoble-alpes.fr
+    Affiliation: Univ. Grenoble Alpes
+    Presenter: 'No'
+  - Username: mcoavoux
+    First Name: Maximin
+    Last Name: Coavoux
+    Email: maximin.coavoux@gmail.com
+    Affiliation: CNRS, Univ Grenoble Alpes
+    Presenter: 'No'
+  - Username: kangje
+    First Name: Jeongwoo
+    Last Name: Kang
+    Email: jeongwoo.kang@univ-grenoble-alpes.fr
+    Affiliation: "Universit\xE9 Grenoble Alpes"
+    Presenter: 'No'
+- Submission ID: '5'
+  Passcode: 5X-C6F9C7D8P7
+  Title: 'Corrective In-Context Learning: Evaluating Self-Correction in Large Language
+    Models'
+  Authors: Mario Sanz-Guerrero and Katharina von der Wense
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: In-context learning (ICL) has transformed the use of large language models
+    (LLMs) for NLP tasks, enabling few-shot learning by conditioning on labeled examples
+    without finetuning. Despite its effectiveness, ICL is prone to errors, especially
+    for challenging examples. With the goal of improving the performance of ICL, we
+    propose *corrective in-context learning* (CICL), an approach that incorporates
+    a model's incorrect predictions alongside ground truth corrections into the prompt,
+    aiming to enhance classification accuracy through self-correction. However, contrary
+    to our hypothesis, extensive experiments on text classification tasks demonstrate
+    that CICL consistently underperforms standard ICL, with performance degrading
+    as the proportion of corrections in the prompt increases. Our findings indicate
+    that CICL introduces confusion by disrupting the model's task understanding, rather
+    than refining its predictions. Additionally, we observe that presenting harder
+    examples in standard ICL does not improve performance, suggesting that example
+    difficulty alone may not be a reliable criterion for effective selection. By presenting
+    these negative results, we provide important insights into the limitations of
+    self-corrective mechanisms in LLMs and offer directions for future research.
+  First Submission Date/Time: 29 Jan 2025 12:07:01
+  Last Revision Date/Time: 16 Mar 2025 21:26:45
+  Main Contact Username: mario-sanz
+  Main Contact Title: ''
+  Main Contact Firstname: Mario
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Sanz-Guerrero
+  Main Contact Affiliation: Johannes Gutenberg University Mainz
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: msanzgue@uni-mainz.de
+  Main Contact Street Address: ''
+  Main Contact City: Mainz
+  Main Contact State/Province/Region: Rhineland-Palatinate
+  Main Contact Zipcode: ''
+  Main Contact Country Code: DE
+  Main Contact Country Name: Germany
+  Main Contact Biography: ''
+  Authors with Affiliations: Mario Sanz-Guerrero (Johannes Gutenberg University Mainz);
+    Katharina von der Wense (University of Colorado Boulder)
+  All Author Emails: msanzgue@uni-mainz.de; katharina.kann@colorado.edu
+  Link to ARR reviews: ''
+  copyrightSig: Katharina von der Wense
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: kann
+    First Name: Katharina
+    Last Name: von der Wense
+    Email: katharina.kann@colorado.edu
+    Affiliation: University of Colorado Boulder
+    Presenter: 'No'
+  - Username: mario-sanz
+    First Name: Mario
+    Last Name: Sanz-Guerrero
+    Email: msanzgue@uni-mainz.de
+    Affiliation: Johannes Gutenberg University Mainz
+    Presenter: 'No'
+- Submission ID: '6'
+  Passcode: 6X-E3E3A3F3F9
+  Title: Investigating the Effectiveness of Sharpness-Aware Minimization for Pre-Training
+    of Language Models
+  Authors: Ivan Vasil'yevich Maksimov, Joqsan Azocar and Valerii Ternovskii
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: One of the most important areas of research in machine learning is understanding
+    how overparameterized deep neural networks can generalize effectively. The loss
+    function of these networks has multiple optimal solutions, each with varying generalization
+    capabilities. Previous research has indicated that wider minima tend to result
+    in better generalization performance. A notable algorithm that leverages this
+    insight is Sharpness-Aware Minimization (SAM), which identifies wider minima by
+    solving a minimax problem. While SAM and its variants have been widely successful
+    in computer vision, natural language understanding, and fine-tuning large language
+    models, their impact on the pre-training of large language models, particularly
+    in terms of generative capabilities, has received limited attention. Our study
+    investigates this gap and finds that the SAM algorithm does not provide benefits
+    for pre-training a model with a LLaMA-like architecture with 100 million parameters.
+  First Submission Date/Time: 29 Jan 2025 15:24:06
+  Last Revision Date/Time: 29 Jan 2025 15:24:06
+  Main Contact Username: ivankud
+  Main Contact Title: ''
+  Main Contact Firstname: Ivan
+  Main Contact Middle Name: Vasil'yevich
+  Main Contact Lastname: Maksimov
+  Main Contact Affiliation: Moscow Institute of Physics and Technology
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: ivan.kudashkin@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Dolgoprudny
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: RU
+  Main Contact Country Name: Russian Federation
+  Main Contact Biography: ''
+  Authors with Affiliations: Ivan Vasil'yevich Maksimov (Moscow Institute of Physics
+    and Technology); Joqsan Azocar (Moscow Institute of Physics and Technology); Valerii
+    Ternovskii (SaluteDevices)
+  All Author Emails: ivan.kudashkin@gmail.com; asokar@mipt.ru; valternovsky@yandex.ru
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Valerii
+    Last Name: Ternovskii
+    Email: valternovsky@yandex.ru
+    Affiliation: SaluteDevices
+    Presenter: 'No'
+  - First Name: Joqsan
+    Last Name: Azocar
+    Email: asokar@mipt.ru
+    Affiliation: Moscow Institute of Physics and Technology
+    Presenter: 'No'
+  - Username: ivankud
+    First Name: Ivan
+    Last Name: Maksimov
+    Email: ivan.kudashkin@gmail.com
+    Affiliation: Moscow Institute of Physics and Technology
+    Presenter: 'No'
+- Submission ID: '7'
+  Passcode: 7X-H9D7A2B3A4
+  Title: Do Prevalent Bias Metrics Capture Allocational Harms from LLMs?
+  Authors: Hannah Cyberey, Yangfeng Ji and David Evans
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: Allocational harms occur when resources or opportunities are unfairly withheld
+    from specific groups. Many proposed bias measures ignore the discrepancy between
+    predictions, which are what the proposed methods consider, and decisions that
+    are made as a result of those predictions. Our work examines the reliability of
+    current bias metrics in assessing allocational harms arising from predictions
+    of large language models (LLMs). We evaluate their predictive validity and utility
+    for model selection across ten LLMs and two allocation tasks. Our results reveal
+    that commonly-used bias metrics based on average performance gap and distribution
+    distance fail to reliably capture group disparities in allocation outcomes. Our
+    work highlights the need to account for how model predictions are used in decisions,
+    in particular in contexts where they are influenced by how limited resources are
+    allocated.
+  First Submission Date/Time: 30 Jan 2025 01:08:15
+  Last Revision Date/Time: 12 Mar 2025 22:09:05
+  Main Contact Username: kitcat0618
+  Main Contact Title: ''
+  Main Contact Firstname: Hannah
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Cyberey
+  Main Contact Affiliation: University of Virginia
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: '4344660712'
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: yc4dx@virginia.edu
+  Main Contact Street Address: ''
+  Main Contact City: Charlottesville
+  Main Contact State/Province/Region: VA
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: I'm a Computer Science PhD candidate at the University of
+    Virginia. I am advised by Prof. David Evans and Prof. Yangfeng Ji. My research
+    primarily focuses on auditing NLP models for trustworthiness. I've worked on adversarial
+    robustness, privacy, and bias/fairness of NLP models.
+  Authors with Affiliations: Hannah Cyberey (University of Virginia); Yangfeng Ji
+    (University of Virginia); David Evans (University of Virginia)
+  All Author Emails: yc4dx@virginia.edu; yangfeng@virginia.edu; evans@virginia.edu
+  Link to ARR reviews: ''
+  copyrightSig: Hannah Cyberey
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: David
+    Last Name: Evans
+    Email: evans@virginia.edu
+    Affiliation: University of Virginia
+    Presenter: 'No'
+  - Username: yangfengji
+    First Name: Yangfeng
+    Last Name: Ji
+    Email: yangfeng@virginia.edu
+    Affiliation: University of Virginia
+    Presenter: 'No'
+  - Username: kitcat0618
+    First Name: Hannah
+    Last Name: Cyberey
+    Email: yc4dx@virginia.edu
+    Affiliation: University of Virginia
+    Presenter: 'No'
+- Submission ID: '8'
+  Passcode: 8X-B3A2C5P8F2
+  Title: Language-Specific Neurons Do Not Facilitate Cross-Lingual Transfer
+  Authors: Soumen Kumar Mondal, Sayambhu Sen, Abhishek Singhania and Preethi Jyothi
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: 'Multilingual large language models (LLMs) aim towards robust natural language
+    understanding across diverse languages, yet their performance significantly degrades
+    on low-resource languages. This work explores whether existing techniques to identify
+    language-specific neurons can be leveraged to enhance cross-lingual task performance
+    of low-resource languages. We conduct detailed experiments covering existing language-specific
+    neuron identification techniques (such as Language
+
+    Activation Probability Entropy and activation probability-based thresholding)
+    and
+
+    neuron-specific LoRA fine-tuning with models like Llama 3.1 and Mistral Nemo.
+    We find that such neuron-specific interventions are insufficient to yield cross-lingual
+    improvements on downstream tasks (XNLI, XQuAD) in low-resource languages. This
+    study highlights the challenges in achieving cross-lingual generalization and
+    provides critical insights for multilingual LLMs.'
+  First Submission Date/Time: 30 Jan 2025 18:47:59
+  Last Revision Date/Time: 16 Mar 2025 10:23:19
+  Main Contact Username: soumenkm
+  Main Contact Title: ''
+  Main Contact Firstname: Soumen Kumar
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Mondal
+  Main Contact Affiliation: IIT Bombay
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: soumenkm@iitb.ac.in
+  Main Contact Street Address: ''
+  Main Contact City: Mumbai
+  Main Contact State/Province/Region: Maharashtra
+  Main Contact Zipcode: ''
+  Main Contact Country Code: IN
+  Main Contact Country Name: India
+  Main Contact Biography: ''
+  Authors with Affiliations: Soumen Kumar Mondal (IIT Bombay); Sayambhu Sen (Amazon);
+    Abhishek Singhania (Amazon); Preethi Jyothi (Indian Institute of Technology Bombay)
+  All Author Emails: soumenkm@iitb.ac.in; sensayam@amazon.com; mrabhsin@amazon.com;
+    pjyothi@cse.iitb.ac.in
+  Link to ARR reviews: ''
+  copyrightSig: Soumen Kumar Mondal
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: jyothi
+    First Name: Preethi
+    Last Name: Jyothi
+    Email: pjyothi@cse.iitb.ac.in
+    Affiliation: Indian Institute of Technology Bombay
+    Presenter: 'No'
+  - Username: mrabhsin
+    First Name: Abhishek
+    Last Name: Singhania
+    Email: mrabhsin@amazon.com
+    Affiliation: Amazon
+    Presenter: 'No'
+  - Username: sensayam
+    First Name: Sayambhu
+    Last Name: Sen
+    Email: sensayam@amazon.com
+    Affiliation: Amazon
+    Presenter: 'No'
+  - Username: soumenkm
+    First Name: Soumen Kumar
+    Last Name: Mondal
+    Email: soumenkm@iitb.ac.in
+    Affiliation: IIT Bombay
+    Presenter: 'No'
+- Submission ID: '9'
+  Passcode: 9X-H4H5J6P5D3
+  Title: 'Asking Again and Again: Exploring LLM Robustness to Repeated Questions'
+  Authors: Sagi Shaier, Mario Sanz-Guerrero and Katharina von der Wense
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: This study investigates whether repeating questions within prompts influences
+    the performance of large language models (LLMs). We hypothesize that reiterating
+    a question within a single prompt might enhance the model's focus on key elements
+    of the query. We evaluate five recent LLMs---including GPT-4o-mini, DeepSeek-V3,
+    and smaller open-source models---on three reading comprehension datasets under
+    different prompt settings, varying question repetition levels (1, 3, or 5 times
+    per prompt). Our results demonstrate that question repetition can increase models'
+    accuracy by up to 6%. However, across all models, settings, and datasets, we do
+    not find the result statistically significant. These findings provide insights
+    into prompt design and LLM behavior, suggesting that repetition alone does not
+    significantly impact output quality.
+  First Submission Date/Time: 30 Jan 2025 19:36:53
+  Last Revision Date/Time: 30 Jan 2025 19:36:53
+  Main Contact Username: shaier
+  Main Contact Title: ''
+  Main Contact Firstname: Sagi
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Shaier
+  Main Contact Affiliation: CU Boulder
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: sagi.shaier@colorado.edu
+  Main Contact Street Address: ''
+  Main Contact City: Boulder
+  Main Contact State/Province/Region: CO
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: PhD student at CU Boulder
+  Authors with Affiliations: Sagi Shaier (CU Boulder); Mario Sanz-Guerrero (Johannes
+    Gutenberg University Mainz); Katharina von der Wense (University of Colorado Boulder)
+  All Author Emails: sagi.shaier@colorado.edu; msanzgue@uni-mainz.de; katharina.kann@colorado.edu
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: kann
+    First Name: Katharina
+    Last Name: von der Wense
+    Email: katharina.kann@colorado.edu
+    Affiliation: University of Colorado Boulder
+    Presenter: 'No'
+  - Username: mario-sanz
+    First Name: Mario
+    Last Name: Sanz-Guerrero
+    Email: msanzgue@uni-mainz.de
+    Affiliation: Johannes Gutenberg University Mainz
+    Presenter: 'No'
+  - Username: shaier
+    First Name: Sagi
+    Last Name: Shaier
+    Email: sagi.shaier@colorado.edu
+    Affiliation: CU Boulder
+    Presenter: 'No'
+- Submission ID: '10'
+  Passcode: 10X-D3J9D6C6D8
+  Title: Monte Carlo Sampling for Analyzing In-Context Examples
+  Authors: Stephanie Schoch and Yangfeng Ji
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: Prior works have shown that in-context learning is brittle to presentation
+    factors such as the order, number, and choice of selected examples. However, ablation-based
+    guidance on selecting the number of examples may ignore the interplay between
+    different presentation factors. In this work we develop a Monte Carlo sampling-based
+    method to study the impact of number of examples while explicitly accounting for
+    effects from order and selected examples. We find that previous guidance on how
+    many in-context examples to select does not always generalize across different
+    sets of selected examples and orderings, and whether one-shot settings outperform
+    zero-shot settings is highly dependent on the selected example. Additionally,
+    inspired by data valuation, we apply our sampling method to in-context example
+    selection to select examples that perform well across different orderings. We
+    find a negative result, that while performance is robust to ordering and number
+    of examples, there is an unexpected performance degradation compared to random
+    sampling.
+  First Submission Date/Time: 31 Jan 2025 00:08:35
+  Last Revision Date/Time: 24 Mar 2025 14:30:02
+  Main Contact Username: sschoch
+  Main Contact Title: ''
+  Main Contact Firstname: Stephanie
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Schoch
+  Main Contact Affiliation: University of Virginia
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: sns2gr@virginia.edu
+  Main Contact Street Address: ''
+  Main Contact City: Charlottesville
+  Main Contact State/Province/Region: VA
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: Third-year PhD student at the University of Virginia.
+  Authors with Affiliations: Stephanie Schoch (University of Virginia); Yangfeng Ji
+    (University of Virginia)
+  All Author Emails: sns2gr@virginia.edu; yangfeng@virginia.edu
+  Link to ARR reviews: ''
+  copyrightSig: Stephanie Schoch
+  jobTitle: ''
+  orgNameAddress: 'The University of Virginia, Department of Computer Science
+
+    Rice Hall, 85 Engineer''s Way Room 527, Charlottesville, VA 22903'
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: yangfengji
+    First Name: Yangfeng
+    Last Name: Ji
+    Email: yangfeng@virginia.edu
+    Affiliation: University of Virginia
+    Presenter: 'No'
+  - Username: sschoch
+    First Name: Stephanie
+    Last Name: Schoch
+    Email: sns2gr@virginia.edu
+    Affiliation: University of Virginia
+    Presenter: 'No'
+- Submission ID: '11'
+  Passcode: 11X-F2D6B5H5B7
+  Title: Does Training on Synthetic Data Make Models Less Robust?
+  Authors: Lingze Zhang and Ellie Pavlick
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: An increasingly common practice is to train large language models (LLMs)
+    using synthetic data. Often this synthetic data is produced by the same or similar
+    LLMs as those it is being used to train. This raises the question of whether the
+    synthetic data might in fact exacerbate certain "blindspots'' by reinforcing heuristics
+    that the LLM already encodes. In this paper, we conduct simulated experiments
+    on the natural language inference (NLI) task with Llama-2-7B-hf models. We use
+    MultiNLI as the general task and HANS, a targeted evaluation set designed to measure
+    the presence of specific heuristic strategies for NLI, as our "blindspot'' task.
+    Our goal is to determine whether performance disparities between the general and
+    blind spot tasks emerge. Our results indicate that synthetic data does not reinforce
+    blindspots in the way we expected. Specifically, we see that, while fine-tuning
+    with synthetic data doesn't necessarily reduce the use of the heuristic, it also
+    does not make it worse as we hypothesized.
+  First Submission Date/Time: 31 Jan 2025 00:56:31
+  Last Revision Date/Time: 16 Mar 2025 03:41:10
+  Main Contact Username: lingzezhang
+  Main Contact Title: ''
+  Main Contact Firstname: Lingze
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Zhang
+  Main Contact Affiliation: Brown University
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: lzjuliuszhang@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Providence
+  Main Contact State/Province/Region: RI
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Lingze Zhang (Brown University); Ellie Pavlick (Brown
+    University)
+  All Author Emails: lzjuliuszhang@gmail.com; ellie_pavlick@brown.edu
+  Link to ARR reviews: ''
+  copyrightSig: Lingze Zhang
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: epavlick
+    First Name: Ellie
+    Last Name: Pavlick
+    Email: ellie_pavlick@brown.edu
+    Affiliation: Brown University
+    Presenter: 'No'
+  - Username: lingzezhang
+    First Name: Lingze
+    Last Name: Zhang
+    Email: lzjuliuszhang@gmail.com
+    Affiliation: Brown University
+    Presenter: 'No'
+- Submission ID: '12'
+  Passcode: 12X-B6A6H3F3D8
+  Title: Bridging the Faithfulness Gap in Prototypical Models
+  Authors: Andrew Koulogeorge, Sean Xie, Saeed Hassanpour and Soroush Vosoughi
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: Prototypical Network-based Language Models (PNLMs) have been introduced
+    as a novel approach for enhancing interpretability in deep learning models for
+    NLP. In this work, we show that, despite the transparency afforded by their case-based
+    reasoning architecture, current PNLMs are, in fact, not faithful, i.e. their explanations
+    do not accurately reflect the underlying model's reasoning process. By adopting
+    an axiomatic approach grounded in the seminal works' definition of faithfulness,
+    we identify two specific points in the architecture of PNLMs where unfaithfulness
+    may occur. To address this, we introduce Faithful Alignment (FA), a two-part framework
+    that ensures the faithfulness of PNLMs' explanations. We then demonstrate that
+    FA achieves this goal without compromising model performance across a variety
+    of downstream tasks and ablation studies.
+  First Submission Date/Time: 31 Jan 2025 02:51:04
+  Last Revision Date/Time: 23 Mar 2025 04:02:44
+  Main Contact Username: sean.xie
+  Main Contact Title: ''
+  Main Contact Firstname: Sean
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Xie
+  Main Contact Affiliation: Dartmouth College
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: sean.xie.gr@dartmouth.edu
+  Main Contact Street Address: ''
+  Main Contact City: Hanover
+  Main Contact State/Province/Region: NH
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Andrew Koulogeorge (Carnegie Mellon University); Sean
+    Xie (Dartmouth College); Saeed Hassanpour (Dartmouth College); Soroush Vosoughi
+    (Dartmouth)
+  All Author Emails: akouloge@andrew.cmu.edu; sean.xie.gr@dartmouth.edu; saeed.hassanpour@dartmouth.edu;
+    soroush@dartmouth.edu
+  Link to ARR reviews: ''
+  copyrightSig: Sean Xie
+  jobTitle: ''
+  orgNameAddress: 'Sean Xie
+
+    Department of Computer Science, Dartmouth College'
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: soroushv
+    First Name: Soroush
+    Last Name: Vosoughi
+    Email: soroush@dartmouth.edu
+    Affiliation: Dartmouth
+    Presenter: 'No'
+  - Username: saeed.hassanpour
+    First Name: Saeed
+    Last Name: Hassanpour
+    Email: saeed.hassanpour@dartmouth.edu
+    Affiliation: Dartmouth College
+    Presenter: 'No'
+  - Username: sean.xie
+    First Name: Sean
+    Last Name: Xie
+    Email: sean.xie.gr@dartmouth.edu
+    Affiliation: Dartmouth College
+    Presenter: 'No'
+  - Username: andrew_koulogeorge
+    First Name: Andrew
+    Last Name: Koulogeorge
+    Email: akouloge@andrew.cmu.edu
+    Affiliation: Carnegie Mellon University
+    Presenter: 'No'
+- Submission ID: '14'
+  Passcode: 14X-C7G3E6J9B5
+  Title: Aligning Sizes of Intermediate Layers by LoRA Adapter for Knowledge Distillation
+  Authors: Takeshi Suzuki, Hiroaki Yamada and Takenobu Tokunaga
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: 'Intermediate Layer Distillation (ILD) is a variant of Knowledge Distillation
+    (KD), a method for compressing neural networks.
+
+    ILD requires mapping to align the intermediate layer sizes of the teacher and
+    student models to compute the loss function in training, while this mapping is
+    not used during inference.
+
+    This inconsistency may reduce the effectiveness of learning in intermediate layers.
+
+    In this study, we propose LoRAILD, which uses LoRA adapters to eliminate the inconsistency.
+
+    However, our experimental results show that LoRAILD does not outperform existing
+    methods.
+
+    Furthermore, contrary to previous studies, we observe that conventional ILD does
+    not outperform vanilla KD.
+
+    Our analysis of the distilled models'' intermediate layers suggests that ILD does
+    not improve language models'' performance.'
+  First Submission Date/Time: 7 Feb 2025 08:33:49
+  Last Revision Date/Time: 23 Mar 2025 10:52:49
+  Main Contact Username: tkc002
+  Main Contact Title: ''
+  Main Contact Firstname: Takeshi
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Suzuki
+  Main Contact Affiliation: Institute of Science Tokyo
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: suzuki.t.dp@m.titech.ac.jp
+  Main Contact Street Address: ''
+  Main Contact City: ''
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: JP
+  Main Contact Country Name: Japan
+  Main Contact Biography: ''
+  Authors with Affiliations: Takeshi Suzuki (Institute of Science Tokyo); Hiroaki
+    Yamada (Institute of Science Tokyo); Takenobu Tokunaga (Institute of Science Tokyo)
+  All Author Emails: suzuki.t.dp@m.titech.ac.jp; yamada@comp.isct.ac.jp; take@c.titech.ac.jp
+  Link to ARR reviews: ''
+  copyrightSig: Takeshi Suzuki
+  jobTitle: ''
+  orgNameAddress: 'Institute of Science Tokyo
+
+    2-12-1 Oookayama, Meguro-ku, Tokyo, Japan'
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: take
+    First Name: Takenobu
+    Last Name: Tokunaga
+    Email: take@c.titech.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+  - Username: h_yamada
+    First Name: Hiroaki
+    Last Name: Yamada
+    Email: yamada@comp.isct.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+  - Username: tkc002
+    First Name: Takeshi
+    Last Name: Suzuki
+    Email: suzuki.t.dp@m.titech.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+- Submission ID: '15'
+  Passcode: 15X-J3P6J8G8P5
+  Title: 'Tales of Trouble: Human enjoyment of LLM-generated flash fiction with and
+    without internal conflict'
+  Authors: Xenia Klinge and Alexander Koller
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: 'Conflict is said to be a core element of narrative. We developed a conflict-driven
+    story generation approach and generated three sets of stories with GPT-4o: one
+    with internal conflict, one explicitly without conflict, and an unconstrained
+    control set without any specific conflict prompting. In a study with 120 participants,
+    we evaluated the impact of internal conflict on character engagement and story
+    enjoyment. While internal conflict improved perceived character depth, unconstrained
+    stories were rated highest in overall enjoyment. We conclude that the impact of
+    interesting characters on story enjoyment can be outweighed by other story aspects
+    of which state-of-the-art LLMs already are capable when given creative freedom.'
+  First Submission Date/Time: 10 Feb 2025 09:13:10
+  Last Revision Date/Time: 10 Feb 2025 13:04:25
+  Main Contact Username: xklinge
+  Main Contact Title: ''
+  Main Contact Firstname: Xenia
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Klinge
+  Main Contact Affiliation: Universitaet des Saarlandes
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: xklinge@lst.uni-saarland.de
+  Main Contact Street Address: ''
+  Main Contact City: ''
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: DE
+  Main Contact Country Name: Germany
+  Main Contact Biography: ''
+  Authors with Affiliations: Xenia Klinge (Universitaet des Saarlandes); Alexander
+    Koller (Saarland University)
+  All Author Emails: xklinge@lst.uni-saarland.de; koller@coli.uni-saarland.de
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: akoller
+    First Name: Alexander
+    Last Name: Koller
+    Email: koller@coli.uni-saarland.de
+    Affiliation: Saarland University
+    Presenter: 'No'
+  - Username: xklinge
+    First Name: Xenia
+    Last Name: Klinge
+    Email: xklinge@lst.uni-saarland.de
+    Affiliation: Universitaet des Saarlandes
+    Presenter: 'No'
+- Submission ID: '16'
+  Passcode: 16X-H3G2P6G7D6
+  Title: LLMs are not Zero-Shot Reasoners for Biomedical Information Extraction
+  Authors: Aishik Nagar, Viktor Schlegel, Thanh-Tung Nguyen, Hao Li, Yuping Wu, Kuluhan
+    Binici and Stefan Winkler
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: Large Language Models (LLMs) are increasingly adopted for applications
+    in healthcare, reaching the performance of domain experts on tasks such as question
+    answering and document summarisation. Despite their success on these tasks, it
+    is unclear how well LLMs perform on tasks that are traditionally pursued in the
+    biomedical domain, such as structured information extration. To bridge this gap,
+    in this paper, we systematically benchmark LLM performance in Medical Classification
+    and Named Entity Recognition (NER) tasks. We aim to disentangle the contribution
+    of different factors to the performance, particularly the impact of LLMs' task
+    knowledge and reasoning capabilities, their (parametric) domain knowledge, and
+    addition of external knowledge. To this end, we evaluate various open LLMs---including
+    BioMistral and Llama-2 models---on a diverse set of biomedical datasets, using
+    standard prompting, Chain-of-Thought (CoT) and Self-Consistency based reasoning
+    as well as Retrieval-Augmented Generation (RAG) with PubMed and Wikipedia corpora.
+    Counter-intuitively, our results reveal that standard prompting consistently outperforms
+    more complex techniques across both tasks, laying bare the limitations in the
+    current application of CoT, self-consistency and RAG in the biomedical domain.
+    Our findings suggest that advanced prompting methods developed for knowledge-
+    or reasoning-intensive tasks, such as CoT or RAG, are not easily portable to biomedical
+    tasks where precise structured outputs are required. This highlights the need
+    for more effective integration of external knowledge and reasoning mechanisms
+    in LLMs to enhance their performance in real-world biomedical applications.
+  First Submission Date/Time: 10 Feb 2025 12:56:43
+  Last Revision Date/Time: 15 Mar 2025 04:45:31
+  Main Contact Username: aishiknagar
+  Main Contact Title: ''
+  Main Contact Firstname: Aishik
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Nagar
+  Main Contact Affiliation: ASUS Global Pte. Ltd.
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: aishiknagar@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Singapore
+  Main Contact State/Province/Region: Singapore
+  Main Contact Zipcode: ''
+  Main Contact Country Code: SG
+  Main Contact Country Name: Singapore
+  Main Contact Biography: ''
+  Authors with Affiliations: Aishik Nagar (ASUS Global Pte. Ltd.); Viktor Schlegel
+    (ASUS AICS); Thanh-Tung Nguyen (ASUS); Hao Li (University of Manchester); Yuping
+    Wu (University of Manchester); Kuluhan Binici (National University of Singapore);
+    Stefan Winkler (ASUS Intelligent Cloud Services (AICS))
+  All Author Emails: aishiknagar@gmail.com; viktor_schlegel@asus.com; tungnguyen0424@gmail.com;
+    hao.li-2@manchester.ac.uk; yuping.wu@manchester.ac.uk; kuluhan@comp.nus.edu.sg;
+    winkler@nus.edu.sg
+  Link to ARR reviews: ''
+  copyrightSig: Aishik Nagar
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: stefanwinkler
+    First Name: Stefan
+    Last Name: Winkler
+    Email: winkler@nus.edu.sg
+    Affiliation: ASUS Intelligent Cloud Services (AICS)
+    Presenter: 'No'
+  - Username: kuluhan
+    First Name: Kuluhan
+    Last Name: Binici
+    Email: kuluhan@comp.nus.edu.sg
+    Affiliation: National University of Singapore
+    Presenter: 'No'
+  - Username: yuping.wu
+    First Name: Yuping
+    Last Name: Wu
+    Email: yuping.wu@manchester.ac.uk
+    Affiliation: University of Manchester
+    Presenter: 'No'
+  - Username: haoli-2
+    First Name: Hao
+    Last Name: Li
+    Email: hao.li-2@manchester.ac.uk
+    Affiliation: University of Manchester
+    Presenter: 'No'
+  - Username: tungngthanh
+    First Name: Thanh-Tung
+    Last Name: Nguyen
+    Email: tungnguyen0424@gmail.com
+    Affiliation: ASUS
+    Presenter: 'No'
+  - Username: schlevik
+    First Name: Viktor
+    Last Name: Schlegel
+    Email: viktor_schlegel@asus.com
+    Affiliation: ASUS AICS
+    Presenter: 'No'
+  - Username: aishiknagar
+    First Name: Aishik
+    Last Name: Nagar
+    Email: aishiknagar@gmail.com
+    Affiliation: ASUS Global Pte. Ltd.
+    Presenter: 'No'
+- Submission ID: '17'
+  Passcode: 17X-D2F8H3D5E9
+  Title: Synthetic Data Augmentation for Cross-domain Implicit Discourse Relation
+    Recognition
+  Authors: Frances Yung, Varsha Suresh, Zaynab Batool Reza, Mansoor Ahmad and Vera
+    Demberg
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: "Implicit discourse relation recognition (IDRR)\n\u2013 the task of identifying\
+    \ the implicit coherence\nrelation between two text spans \u2013 requires deep\n\
+    semantic understanding. Recent studies have\nshown that zero-/few-shot approaches\
+    \ significantly\nlag behind supervised models (Chan\net al., 2024; Yung et al.,\
+    \ 2024), but that LLMs\nmay be useful for synthetic data augmentation,\nwhere\
+    \ LLMs generate a second argument following\na specified coherence relation. We\
+    \ applied\nthis approach in a cross-domain setting,\ngenerating discourse continuations\
+    \ using unlabelled\ntarget-domain data to adapt a base model\nwhich was trained\
+    \ on source-domain labelled\ndata. Evaluations conducted on a large-scale\ntest\
+    \ set revealed that various variants of the\napproach did not result in any significant\
+    \ improvements.\nWe conclude that LLMs often\nfail to generate useful samples\
+    \ for IDRR, and\nemphasize the importance of considering both\nstatistical significance\
+    \ and comparability when\nevaluating IDRR models."
+  First Submission Date/Time: 10 Feb 2025 14:52:53
+  Last Revision Date/Time: 10 Feb 2025 14:52:53
+  Main Contact Username: pikyufrances-y
+  Main Contact Title: ''
+  Main Contact Firstname: Frances
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Yung
+  Main Contact Affiliation: Saarland University
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: 015732796814
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: frances@coli.uni-saarland.de
+  Main Contact Street Address: ''
+  Main Contact City: "Saarbr\xFCcken"
+  Main Contact State/Province/Region: Saarland
+  Main Contact Zipcode: ''
+  Main Contact Country Code: DE
+  Main Contact Country Name: Germany
+  Main Contact Biography: ''
+  Authors with Affiliations: Frances Yung (Saarland University); Varsha Suresh (Saarland
+    University); Zaynab Batool Reza (Saarland University); Mansoor Ahmad (Saarland
+    University); Vera Demberg (Saarland University)
+  All Author Emails: frances@coli.uni-saarland.de; vsuresh@lst.uni-saarland.de; zaynab.reza@hotmail.com;
+    p156069@gmail.com; vera@coli.uni-saarland.de
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: vera
+    First Name: Vera
+    Last Name: Demberg
+    Email: vera@coli.uni-saarland.de
+    Affiliation: Saarland University
+    Presenter: 'No'
+  - First Name: Mansoor
+    Last Name: Ahmad
+    Email: p156069@gmail.com
+    Affiliation: Saarland University
+    Presenter: 'No'
+  - Username: zaynabreza
+    First Name: Zaynab
+    Last Name: Reza
+    Email: zaynab.reza@hotmail.com
+    Affiliation: Saarland University
+    Presenter: 'No'
+  - Username: varshasuresh
+    First Name: Varsha
+    Last Name: Suresh
+    Email: vsuresh@lst.uni-saarland.de
+    Affiliation: Saarland University
+    Presenter: 'No'
+  - Username: pikyufrances-y
+    First Name: Frances
+    Last Name: Yung
+    Email: frances@coli.uni-saarland.de
+    Affiliation: Saarland University
+    Presenter: 'No'
+- Submission ID: '18'
+  Passcode: 18X-B9H4J5C9D3
+  Title: Exploring Limitations of LLM Capabilities with Multi-Problem Evaluation
+  Authors: Zhengxiang Wang, Jordan Kodner and Owen Rambow
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: We propose using prompts made up of multiple problems to evaluate LLM capabilities,
+    an approach we call multi-problem evaluation. We examine 7 LLMs on 4 related task
+    types constructed from 6 existing classification benchmarks. We find that while
+    LLMs can generally perform multiple homogeneous classifications at once (Batch
+    Classification) as well as when they do so separately, they perform significantly
+    worse on two selection tasks that are conceptually equivalent to Batch Classification
+    and involve selecting indices of text falling into each class label, either independently
+    or altogether. We show that such a significant performance drop is due to LLMs'
+    inability to adequately combine index selection with text classification. Such
+    a drop is surprisingly observed across all LLMs attested, under zero-shot, few-shot,
+    and CoT settings, and even with a novel synthetic dataset, potentially reflecting
+    an inherent capability limitation with modern LLMs.
+  First Submission Date/Time: 11 Feb 2025 03:01:12
+  Last Revision Date/Time: 26 Mar 2025 13:21:45
+  Main Contact Username: zhengxiang.wang
+  Main Contact Title: ''
+  Main Contact Firstname: Zhengxiang
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Wang
+  Main Contact Affiliation: Stony Brook University
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: zhengxiang.wang@stonybrook.edu
+  Main Contact Street Address: ''
+  Main Contact City: South Setauket
+  Main Contact State/Province/Region: NY
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Zhengxiang Wang (Stony Brook University); Jordan Kodner
+    (Stony Brook University); Owen Rambow (Stony Brook University)
+  All Author Emails: zhengxiang.wang@stonybrook.edu; jordan.kodner@stonybrook.edu;
+    owen.rambow@stonybrook.edu
+  Link to ARR reviews: ''
+  copyrightSig: Zhengxiang Wang
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Owen
+    Last Name: Rambow
+    Email: owen.rambow@stonybrook.edu
+    Affiliation: Stony Brook University
+    Presenter: 'No'
+  - First Name: Jordan
+    Last Name: Kodner
+    Email: jordan.kodner@stonybrook.edu
+    Affiliation: Stony Brook University
+    Presenter: 'No'
+  - Username: zhengxiang.wang
+    First Name: Zhengxiang
+    Last Name: Wang
+    Email: zhengxiang.wang@stonybrook.edu
+    Affiliation: Stony Brook University
+    Presenter: 'No'
+- Submission ID: '19'
+  Passcode: 19X-A3D8G2F4A9
+  Title: 'Exploring Multimodal Language Models for Sustainability Disclosure Extraction:
+    A Comparative Study'
+  Authors: Tanay Kumar Gupta, Tushar Goel and Ishan Verma
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: Sustainability metrics have increasingly become a crucial non-financial
+    criterion in investment decision-making. Organizations worldwide are recognizing
+    the importance of sustainability and are proactively highlighting their efforts
+    through specialized sustainability reports. Unlike traditional annual reports,
+    these sustainability disclosures are typically text-heavy and are often expressed
+    as infographics, complex tables, and charts. The non-machine-readable nature of
+    these reports presents a significant challenge for efficient information extraction.
+    The rapid advancement of Vision Language Models (VLMs) has raised the question
+    whether these VLMs can address such challenges in domain specific task. In this
+    study, we demonstrate the application of VLMs for extracting sustainability information
+    from dedicated sustainability reports. Our experiments highlight the limitations
+    in the performance of several open-source VLMs in extracting information about
+    sustainability disclosures from different type of pages.
+  First Submission Date/Time: 11 Feb 2025 07:41:05
+  Last Revision Date/Time: 24 Mar 2025 04:12:33
+  Main Contact Username: ishanverma
+  Main Contact Title: ''
+  Main Contact Firstname: Ishan
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Verma
+  Main Contact Affiliation: TCS Research
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: ishan.verma@tcs.com
+  Main Contact Street Address: ''
+  Main Contact City: New Delhi
+  Main Contact State/Province/Region: New Delhi
+  Main Contact Zipcode: ''
+  Main Contact Country Code: IN
+  Main Contact Country Name: India
+  Main Contact Biography: ''
+  Authors with Affiliations: Tanay Kumar Gupta (TCS Research); Tushar Goel (TCS Research);
+    Ishan Verma (TCS Research)
+  All Author Emails: gupta.tanay@tcs.com; t.goel@tcs.com; ishan.verma@tcs.com
+  Link to ARR reviews: ''
+  copyrightSig: Ishan Verma
+  jobTitle: ''
+  orgNameAddress: TCS Research, New Delhi, India
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: ishanverma
+    First Name: Ishan
+    Last Name: Verma
+    Email: ishan.verma@tcs.com
+    Affiliation: TCS Research
+    Presenter: 'No'
+  - First Name: Tushar
+    Last Name: Goel
+    Email: t.goel@tcs.com
+    Affiliation: TCS Research
+    Presenter: 'No'
+  - First Name: Tanay
+    Last Name: Gupta
+    Email: gupta.tanay@tcs.com
+    Affiliation: TCS Research
+    Presenter: 'No'
+- Submission ID: '20'
+  Passcode: 20X-G4E6E6G7P7
+  Title: 'Evaluating Large Language Models for Materials Synthesis Information Extraction:
+    Improvements and Challenges'
+  Authors: Taeyang Jeon, seunghwan Choi, Jisoo Bae, Gayeon Baek, Jihoon Hong, Dongwon
+    Jeon, Yoonseo Kim, Gyeongwon Kwak, Taeyoon Kwon, Chihoon Lee, Donghee Lee, Kai
+    Tzu-iunn Ong, Ashesh Chattopadhyay, Sungbeom Cho, SeonJin Choi, Sookyung Kim,
+    Jinseong Park, Seunghoon Yi, Jinyoung Yeo and Hyunsouk Cho
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: "The accuracy of materials synthesis prediction models heavily relies on\
+    \ the quality of extracted datasets. \nWhile rule-based and small-scale NLP-based\
+    \ methods have been widely used to construct such datasets from scientific literature,\
+    \ they often fail to capture complex contextual relationships, leading to frequent\
+    \ errors. \nThis study analyzes the limitations of rule-based and small-scale\
+    \ NLP models in extracting key synthesis attributes and evaluates the potential\
+    \ of Large Language Models (LLMs) to improve extraction accuracy. \nOur findings\
+    \ demonstrate that LLMs significantly reduce missing and incorrect errors in critical\
+    \ dataset columns, highlighting their strengths and the remaining challenges in\
+    \ synthesis dataset construction."
+  First Submission Date/Time: 11 Feb 2025 11:04:15
+  Last Revision Date/Time: 11 Feb 2025 11:58:19
+  Main Contact Username: dnwn3311
+  Main Contact Title: ''
+  Main Contact Firstname: Taeyang
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Jeon
+  Main Contact Affiliation: Department of Artificial Intelligence, Ajou university
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: dnwn3311@ajou.ac.kr
+  Main Contact Street Address: ''
+  Main Contact City: Suwon
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: KR
+  Main Contact Country Name: Republic of Korea
+  Main Contact Biography: ''
+  Authors with Affiliations: Taeyang Jeon (Department of Artificial Intelligence,
+    Ajou university); seunghwan Choi (Department of Artificial Intelligence, Ajou
+    University); Jisoo Bae (Division of Materials Science and Engineering, Hanyang
+    University); Gayeon Baek (Division of Materials Science and Engineering, Hanyang
+    University); Jihoon Hong (Department of Materials Science and Engineering and
+    Department of Energy Systems Research, Ajou University); Dongwon Jeon (Department
+    of Materials Science and Engineering and Department of Energy Systems Research,
+    Ajou University); Yoonseo Kim (Division of Materials Science and Engineering,
+    Hanyang University); Gyeongwon Kwak (Division of Materials Science and Engineering,
+    Hanyang University); Taeyoon Kwon (Department of Artificial Intelligence, Yonsei
+    University); Chihoon Lee (Division of Materials Science and Engineering, Hanyang
+    University); Donghee Lee (Division of Materials Science and Engineering, Hanyang
+    University); Kai Tzu-iunn Ong (Department of Artificial Intelligence, Yonsei University);
+    Ashesh Chattopadhyay (Department of Applied Mathematics, UCSC); Sungbeom Cho (Department
+    of Materials Science and Engineering and Department of Energy Systems Research,
+    Ajou University); SeonJin Choi (Division of Materials Science and Engineering,
+    Hanyang University); Sookyung Kim (Department of Artificial Intelligence, Ewha
+    Womans University); Jinseong Park (Division of Materials Science and Engineering,Hanyang
+    University); Seunghoon Yi (Graduate School of Data Science, Seoul National University);
+    Jinyoung Yeo (Yonsei University); Hyunsouk Cho (Department of Artificial Intelligence,
+    Ajou University)
+  All Author Emails: dnwn3311@ajou.ac.kr; dexrf@ajou.ac.kr; ghn07092@naver.com; rkdus99@hanyang.ac.kr;
+    blueper2000@ajou.ac.kr; jdwjyl2007@ajou.ac.kr; olly9492@gmail.com; kwkwak99@hanyang.ac.kr;
+    kwonconnor101@yonsei.ac.kr; playjim100@gmail.com; hdhd1947@hanyang.ac.kr; ktio89@yonsei.ac.kr;
+    aschatto@ucsc.edu; csb@ajou.ac.kr; sjchoi27@hanyang.ac.kr; sookim@ewha.ac.kr;
+    jsparklime@hanyang.ac.kr; jaguar6182@snu.ac.kr; jinyeo@yonsei.ac.kr; hyunsouk@ajou.ac.kr
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Hyunsouk
+    Last Name: Cho
+    Email: hyunsouk@ajou.ac.kr
+    Affiliation: Department of Artificial Intelligence, Ajou University
+    Presenter: 'No'
+  - Username: convei
+    First Name: Jinyoung
+    Last Name: Yeo
+    Email: jinyeo@yonsei.ac.kr
+    Affiliation: Yonsei University
+    Presenter: 'No'
+  - First Name: Seunghoon
+    Last Name: Yi
+    Email: jaguar6182@snu.ac.kr
+    Affiliation: Graduate School of Data Science, Seoul National University
+    Presenter: 'No'
+  - First Name: Jinseong
+    Last Name: Park
+    Email: jsparklime@hanyang.ac.kr
+    Affiliation: Division of Materials Science and Engineering,Hanyang University
+    Presenter: 'No'
+  - First Name: Sookyung
+    Last Name: Kim
+    Email: sookim@ewha.ac.kr
+    Affiliation: Department of Artificial Intelligence, Ewha Womans University
+    Presenter: 'No'
+  - First Name: SeonJin
+    Last Name: Choi
+    Email: sjchoi27@hanyang.ac.kr
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Sungbeom
+    Last Name: Cho
+    Email: csb@ajou.ac.kr
+    Affiliation: Department of Materials Science and Engineering and Department of
+      Energy Systems Research, Ajou University
+    Presenter: 'No'
+  - First Name: Ashesh
+    Last Name: Chattopadhyay
+    Email: aschatto@ucsc.edu
+    Affiliation: Department of Applied Mathematics, UCSC
+    Presenter: 'No'
+  - First Name: Kai
+    Last Name: Ong
+    Email: ktio89@yonsei.ac.kr
+    Affiliation: Department of Artificial Intelligence, Yonsei University
+    Presenter: 'No'
+  - First Name: Donghee
+    Last Name: Lee
+    Email: hdhd1947@hanyang.ac.kr
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Chihoon
+    Last Name: Lee
+    Email: playjim100@gmail.com
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Taeyoon
+    Last Name: Kwon
+    Email: kwonconnor101@yonsei.ac.kr
+    Affiliation: Department of Artificial Intelligence, Yonsei University
+    Presenter: 'No'
+  - First Name: Gyeongwon
+    Last Name: Kwak
+    Email: kwkwak99@hanyang.ac.kr
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Yoonseo
+    Last Name: Kim
+    Email: olly9492@gmail.com
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Dongwon
+    Last Name: Jeon
+    Email: jdwjyl2007@ajou.ac.kr
+    Affiliation: Department of Materials Science and Engineering and Department of
+      Energy Systems Research, Ajou University
+    Presenter: 'No'
+  - First Name: Jihoon
+    Last Name: Hong
+    Email: blueper2000@ajou.ac.kr
+    Affiliation: Department of Materials Science and Engineering and Department of
+      Energy Systems Research, Ajou University
+    Presenter: 'No'
+  - First Name: Gayeon
+    Last Name: Baek
+    Email: rkdus99@hanyang.ac.kr
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - First Name: Jisoo
+    Last Name: Bae
+    Email: ghn07092@naver.com
+    Affiliation: Division of Materials Science and Engineering, Hanyang University
+    Presenter: 'No'
+  - Username: dexrf1
+    First Name: seunghwan
+    Last Name: Choi
+    Email: dexrf@ajou.ac.kr
+    Affiliation: Department of Artificial Intelligence, Ajou University
+    Presenter: 'No'
+  - Username: dnwn3311
+    First Name: Taeyang
+    Last Name: Jeon
+    Email: dnwn3311@ajou.ac.kr
+    Affiliation: Department of Artificial Intelligence, Ajou university
+    Presenter: 'No'
+- Submission ID: '21'
+  Passcode: 21X-C6J3B7H2G3
+  Title: 'ConCOT: Boosting Chain-of-Thought Reasoning in Language Models with Contrastive
+    Decoding'
+  Authors: Jay Shim, Grant Kruttschnitt, Alyssa Ma, Daniel Kim, Benjamin Chek, Athul
+    Anand, Kevin Zhu and Sean O'Brien
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: We introduce ConCOT, which leverages contrastive decoding to further encourage
+    the type of intermediate reasoning induced by chain-of-thought prompting
+  First Submission Date/Time: 11 Feb 2025 11:23:15
+  Last Revision Date/Time: 11 Feb 2025 11:23:15
+  Main Contact Username: kevinzhu
+  Main Contact Title: ''
+  Main Contact Firstname: Kevin
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Zhu
+  Main Contact Affiliation: Algoverse
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: zhu502846@berkeley.edu
+  Main Contact Street Address: ''
+  Main Contact City: ''
+  Main Contact State/Province/Region: --
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Jay Shim (Algoverse); Grant Kruttschnitt (Algoverse);
+    Alyssa Ma (Algoverse); Daniel Kim (Algoverse); Benjamin Chek (Algoverse); Athul
+    Anand (Algoverse); Kevin Zhu (Algoverse); Sean O'Brien (Algoverse)
+  All Author Emails: jshim1213@utexas.edu; grant_kruttschnitt@branson.org; alyssama9@gmail.com;
+    jeyeon.kim@gmail.com; chek.benjamin@gmail.com; athul1603@gmail.com; zhu502846@berkeley.edu;
+    seobrien@ucsd.edu
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Sean
+    Last Name: O'Brien
+    Email: seobrien@ucsd.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - Username: kevinzhu
+    First Name: Kevin
+    Last Name: Zhu
+    Email: zhu502846@berkeley.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Athul
+    Last Name: Anand
+    Email: athul1603@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Benjamin
+    Last Name: Chek
+    Email: chek.benjamin@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Daniel
+    Last Name: Kim
+    Email: jeyeon.kim@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Alyssa
+    Last Name: Ma
+    Email: alyssama9@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Grant
+    Last Name: Kruttschnitt
+    Email: grant_kruttschnitt@branson.org
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Jay
+    Last Name: Shim
+    Email: jshim1213@utexas.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+- Submission ID: '22'
+  Passcode: 22X-E9A7C3P3J7
+  Title: 'Navigating the Nuances of Text Style Transfer: Lessons from Generating Toxic
+    Text with LLMs'
+  Authors: Sergey Pletenev, Daniil Moskovskiy and Alexander Panchenko
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: 'Large language models have shown promise in the generation of synthetic
+    data for detoxification, but their ability to fully replace human-annotated data
+    is underexplored. We investigate whether synthetic toxic data generated by LLMs
+    can eliminate the need for human-generated text detoxification data. Using activation
+    patched Llama 3 70B, we generate synthetic toxic and non-toxic data from using
+    the neutral data from ParaDetox and SST-2.
+
+
+    Despite successful injection of toxic words, experiments reveal critical limitations:
+    models fine-tuned on synthetic to data significantly underperform compared to
+    those trained on human-annotated datasets. Further linguistic analysis reveals
+    low lexical diversity in synthetic toxic data, with repetitive and narrow toxic
+    expressions. Moreover, our findings show, that the generation of synthetic toxic
+    data using current open-source LLMs does not match the diversity of human-written
+    toxic texts.'
+  First Submission Date/Time: 11 Feb 2025 11:40:27
+  Last Revision Date/Time: 11 Feb 2025 11:55:01
+  Main Contact Username: sapletenev
+  Main Contact Title: ''
+  Main Contact Firstname: Sergey
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Pletenev
+  Main Contact Affiliation: HSE
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: alex010rey@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Moscow
+  Main Contact State/Province/Region: ''
+  Main Contact Zipcode: ''
+  Main Contact Country Code: RU
+  Main Contact Country Name: Russian Federation
+  Main Contact Biography: ''
+  Authors with Affiliations: Sergey Pletenev (HSE); Daniil Moskovskiy (Skolkovo Institute
+    of Science and Technology); Alexander Panchenko (Skolkovo Institue of Science
+    and Technology)
+  All Author Emails: alex010rey@gmail.com; daniil.moskovskiy@skoltech.ru; panchenko.alexander@gmail.com
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: alexander.panchenko
+    First Name: Alexander
+    Last Name: Panchenko
+    Email: panchenko.alexander@gmail.com
+    Affiliation: Skolkovo Institue of Science and Technology
+    Presenter: 'No'
+  - Username: daniil_moskovskiy
+    First Name: Daniil
+    Last Name: Moskovskiy
+    Email: daniil.moskovskiy@skoltech.ru
+    Affiliation: Skolkovo Institute of Science and Technology
+    Presenter: 'No'
+  - Username: sapletenev
+    First Name: Sergey
+    Last Name: Pletenev
+    Email: alex010rey@gmail.com
+    Affiliation: HSE
+    Presenter: 'No'
+- Submission ID: '23'
+  Passcode: 23X-C4P3E4F7C2
+  Title: 'Self Knowledge-Tracing for Tool Use (SKT-Tool): Helping LLM Agents Understand
+    Their Capabilities in Tool Use'
+  Authors: Joshua Vigel, Renpei Cai, Eleanor Chen, Anish Neema, Austen Liao, Kevin
+    Zhu and Sean O'Brien
+  Acceptance Status: Accept
+  Conditions: ''
+  Summary: Large Language Models (LLMs) enhanced with tool use and APIs improve task
+    performance but often misuse them, leading to inefficiency and unnecessary cost.
+    We propose Self Knowledge-Tracing for Tool Use (SKT-Tool), a method enabling LLMs
+    to assess their capabilities and make informed API usage decisions using knowledge
+    tracing (KT). Our teacher-student framework helps LLMs optimize API calls in real-time
+    without fine-tuning. Experiments across multiple datasets show that SKT-Tool significantly
+    reduces API calls while maintaining accuracy, offering a scalable and cost-effective
+    solution for tool-augmented LLMs. We conclude by analyzing shortcomings in this
+    method and identifying directions for future work.
+  First Submission Date/Time: 11 Feb 2025 11:55:46
+  Last Revision Date/Time: 16 Mar 2025 03:24:36
+  Main Contact Username: cairenpei
+  Main Contact Title: ''
+  Main Contact Firstname: Renpei
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Cai
+  Main Contact Affiliation: Algoverse
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: nasevate@gmail.com
+  Main Contact Street Address: ''
+  Main Contact City: Edmonds
+  Main Contact State/Province/Region: WA
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Joshua Vigel (Algoverse); Renpei Cai (Algoverse); Eleanor
+    Chen (Algoverse); Anish Neema (Algoverse); Austen Liao (Algoverse); Kevin Zhu
+    (Algoverse); Sean O'Brien (Algoverse)
+  All Author Emails: joshvigel@gmail.com; nasevate@gmail.com; tarobrightlynx@gmail.com;
+    anish.neema2@gmail.com; austenliao@berkeley.edu; zhu502846@berkeley.edu; seobrien@ucsd.edu
+  Link to ARR reviews: ''
+  copyrightSig: RENPEI CAI
+  jobTitle: author
+  orgNameAddress: Algoverse AI Research
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Sean
+    Last Name: O'Brien
+    Email: seobrien@ucsd.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - Username: kevinzhu
+    First Name: Kevin
+    Last Name: Zhu
+    Email: zhu502846@berkeley.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Austen
+    Last Name: Liao
+    Email: austenliao@berkeley.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Anish
+    Last Name: Neema
+    Email: anish.neema2@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Eleanor
+    Last Name: Chen
+    Email: tarobrightlynx@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - Username: cairenpei
+    First Name: Renpei
+    Last Name: Cai
+    Email: nasevate@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Joshua
+    Last Name: Vigel
+    Email: joshvigel@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+- Submission ID: '24'
+  Passcode: 24X-B2P3A6P6G3
+  Title: 'Error Reflection Prompting: Can Large Language Models Successfully Understand
+    Errors?'
+  Authors: Jason Li, Lauren Yraola, Kevin Zhu and Sean O'Brien
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: Prompting methods for language models, such as Chain-of-thought (CoT),
+    present intuitive step-by-step processes for problem solving. These methodologies
+    aim to equip models with a better understanding of the correct procedures for
+    addressing a given task. Despite these advancements, CoT lacks the ability of
+    reflection and error correction, potentially causing a model to perpetuate mistakes
+    and errors. Therefore, inspired by the human ability for said tasks, we propose
+    Error Reflection Prompting (ERP) to further enhance reasoning in language models.
+    Building upon CoT, ERP is a method comprised of an incorrect answer, error recognition,
+    and a correct answer. This process enables the model to recognize types of errors
+    and the steps that lead to incorrect answers, allowing the model to better discern
+    which steps to avoid and which to take. The model is able to generate the error
+    outlines itself with automated ERP generation, allowing for error recognition
+    and correction to be integrated into the reasoning chain and produce scalability
+    and reliability in the process. The results demonstrate that ERP serves as a versatile
+    supplement to conventional CoT, ultimately contributing to more robust and capable
+    reasoning abilities along with increased interpretability in how models ultimately
+    reach their errors.
+  First Submission Date/Time: 11 Feb 2025 12:15:21
+  Last Revision Date/Time: 18 Mar 2025 06:16:32
+  Main Contact Username: kevinzhu
+  Main Contact Title: ''
+  Main Contact Firstname: Kevin
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Zhu
+  Main Contact Affiliation: Algoverse
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: zhu502846@berkeley.edu
+  Main Contact Street Address: ''
+  Main Contact City: ''
+  Main Contact State/Province/Region: --
+  Main Contact Zipcode: ''
+  Main Contact Country Code: US
+  Main Contact Country Name: United States
+  Main Contact Biography: ''
+  Authors with Affiliations: Jason Li (Algoverse); Lauren Yraola (Algoverse); Kevin
+    Zhu (Algoverse); Sean O'Brien (Algoverse)
+  All Author Emails: jl255788@gmail.com; s.lauren.yraola@gmail.com; zhu502846@berkeley.edu;
+    seobrien@ucsd.edu
+  Link to ARR reviews: ''
+  copyrightSig: Kevin Zhu
+  jobTitle: ''
+  orgNameAddress: Algoverse AI Research, 28 N 4th St, San Jose, CA 95112, USA
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - First Name: Sean
+    Last Name: O'Brien
+    Email: seobrien@ucsd.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - Username: kevinzhu
+    First Name: Kevin
+    Last Name: Zhu
+    Email: zhu502846@berkeley.edu
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Lauren
+    Last Name: Yraola
+    Email: s.lauren.yraola@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+  - First Name: Jason
+    Last Name: Li
+    Email: jl255788@gmail.com
+    Affiliation: Algoverse
+    Presenter: 'No'
+- Submission ID: '25'
+  Passcode: 25X-J8G6E9J5D4
+  Title: Evaluating Robustness of LLMs to Numerical Variations in Mathematical Reasoning
+  Authors: Yuli Yang, Hiroaki Yamada and Takenobu Tokunaga
+  Acceptance Status: Accept-Oral
+  Conditions: ''
+  Summary: Evaluating an LLM's robustness against numerical perturbation is a good
+    way to know if the LLM actually performs reasoning or just replicates patterns
+    learned. We propose a novel method to augment math word problems (MWPs), producing
+    numerical variations at a large scale utilizing templates. We also propose an
+    automated error classification framework for scalable error analysis, distinguishing
+    calculation errors from reasoning errors. Our experiments using the methods show
+    LLMs are weak against numerical variations, suggesting they are not fully capable
+    of generating valid reasoning steps, often failing in arithmetic operations.
+  First Submission Date/Time: 19 Feb 2025 11:08:26
+  Last Revision Date/Time: 15 Mar 2025 00:21:34
+  Main Contact Username: h_yamada
+  Main Contact Title: ''
+  Main Contact Firstname: Hiroaki
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Yamada
+  Main Contact Affiliation: Institute of Science Tokyo
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: yamada@comp.isct.ac.jp
+  Main Contact Street Address: ''
+  Main Contact City: Meguro
+  Main Contact State/Province/Region: Tokyo
+  Main Contact Zipcode: ''
+  Main Contact Country Code: JP
+  Main Contact Country Name: Japan
+  Main Contact Biography: ''
+  Authors with Affiliations: Yuli Yang (Institute of Science Tokyo); Hiroaki Yamada
+    (Institute of Science Tokyo); Takenobu Tokunaga (Institute of Science Tokyo)
+  All Author Emails: yang.y.aw@m.titech.ac.jp; yamada@comp.isct.ac.jp; take@c.titech.ac.jp
+  Link to ARR reviews: https://openreview.net/forum?id=zqSZhzOsvJ
+  copyrightSig: Hiroaki Yamada
+  jobTitle: ''
+  orgNameAddress: Institute of Science Tokyo
+  Attachments: Paper, LaTeXSource
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: take
+    First Name: Takenobu
+    Last Name: Tokunaga
+    Email: take@c.titech.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+  - Username: h_yamada
+    First Name: Hiroaki
+    Last Name: Yamada
+    Email: yamada@comp.isct.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+  - First Name: Yuli
+    Last Name: Yang
+    Email: yang.y.aw@m.titech.ac.jp
+    Affiliation: Institute of Science Tokyo
+    Presenter: 'No'
+- Submission ID: '26'
+  Passcode: 26X-F9J3B8H6G8
+  Title: 'RIEN: A basic Spanish - Nahuatl Bilingual Information Retrieval System'
+  Authors: "Juan Jose Guzman Landa, Ligia Quintana, Juan-Manuel Torres-Moreno, Miguel\
+    \ Figueroa-Saavedra and Martha Lorena Avenda\xF1o Garrido"
+  Acceptance Status: Reject
+  Conditions: ''
+  Summary: "We present an information retrieval system for PDF documents, specifically\
+    \ theses and master's theses from the Universidad Veracruzana (UV), Mexico, based\
+    \ on user queries. The RIEN system (from the French R\xE9cup\xE9ration d'Informations\
+    \ Espagnol\u2013Nahuatl, is data-centered and aims to address a current issue\
+    \ in UV's thesis repository. RIEN employs an AI/IR approach and static representations\
+    \ to establish correspondences with user queries and generate a ranked list of\
+    \ the documents. Initial tests on small sets of real data have shown highly promising\
+    \ results."
+  First Submission Date/Time: 7 Mar 2025 14:04:24
+  Last Revision Date/Time: 7 Mar 2025 14:04:24
+  Main Contact Username: liquintana
+  Main Contact Title: ''
+  Main Contact Firstname: Ligia
+  Main Contact Middle Name: ''
+  Main Contact Lastname: Quintana
+  Main Contact Affiliation: University of Veracruz
+  Main Contact Affiliation Dpt: ''
+  Main Contact Job Function: ''
+  Main Contact Phone: ''
+  Main Contact Mobile: ''
+  Main Contact Fax: ''
+  Main Contact Email: liquintana@uv.mx
+  Main Contact Street Address: ''
+  Main Contact City: Xalapa
+  Main Contact State/Province/Region: Veracruz
+  Main Contact Zipcode: ''
+  Main Contact Country Code: MX
+  Main Contact Country Name: Mexico
+  Main Contact Biography: ''
+  Authors with Affiliations: "Juan Jose Guzman Landa (Universite Avignon); Ligia Quintana\
+    \ (University of Veracruz); Juan-Manuel Torres-Moreno (LIA Avignon); Miguel Figueroa-Saavedra\
+    \ (Universidad Veracruzana); Martha Lorena Avenda\xF1o Garrido (Universidad Veracruzana)"
+  All Author Emails: juan-jose.guzman-landa@univ-avignon.fr; liquintana@uv.mx; juan-manuel.torres@univ-avignon.fr;
+    migfigueroa@uv.mx; maravendano@uv.mx
+  Link to ARR reviews: ''
+  copyrightSig: ''
+  jobTitle: ''
+  orgNameAddress: ''
+  Attachments: Paper
+  Final Attachments OK: 'No'
+  Final Tags: None
+  Final Notes: None
+  ? ''
+  : ''
+  Authors_Full:
+  - Username: mlavendanog
+    First Name: Martha Lorena
+    Last Name: "Avenda\xF1o Garrido"
+    Email: maravendano@uv.mx
+    Affiliation: Universidad Veracruzana
+    Presenter: 'No'
+  - Username: migfigueroa
+    First Name: Miguel
+    Last Name: Figueroa-Saavedra
+    Email: migfigueroa@uv.mx
+    Affiliation: Universidad Veracruzana
+    Presenter: 'No'
+  - Username: juan-manuel.torres
+    First Name: Juan-Manuel
+    Last Name: Torres-Moreno
+    Email: juan-manuel.torres@univ-avignon.fr
+    Affiliation: LIA Avignon
+    Presenter: 'No'
+  - Username: liquintana
+    First Name: Ligia
+    Last Name: Quintana
+    Email: liquintana@uv.mx
+    Affiliation: University of Veracruz
+    Presenter: 'No'
+  - Username: juan_guzman
+    First Name: Juan Jose
+    Last Name: Guzman Landa
+    Email: juan-jose.guzman-landa@univ-avignon.fr
+    Affiliation: Universite Avignon
+    Presenter: 'No'

@@ -1,0 +1,21 @@
+anthology_venue_id: ACL
+book_title: Proceedings of the The Sixth Workshop on Insights from Negative Results in NLP
+cover_subtitle: Proceedings of the Insights 2025
+editors:
+- first_name: Aleksandr
+  last_name: Drozd
+- first_name: João
+  last_name: Sedoc
+- first_name: Shabnam
+  last_name: Tafreshi
+- first_name: Arjun
+  last_name: Akula
+- first_name: Raphael
+  last_name: Shu
+end_date: 2025-05-04
+event_name: The 2025 Annual Conference of the Nations of the Americas Chapter of the
+  Association for Computational Linguistics
+isbn: 979-8-89176-240-4
+location: Albuquerque, New Mexico
+publisher: Association for Computational Linguistics
+start_date: 2025-05-04
