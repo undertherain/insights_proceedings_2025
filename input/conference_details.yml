@@ -1,10 +1,10 @@
-anthology_venue_id: ACL
-book_title: Proceedings of the The Sixth Workshop on Insights from Negative Results in NLP
-cover_subtitle: Proceedings of the Insights 2025
+anthology_venue_id: NAACL
+book_title: The Sixth Workshop on Insights from Negative Results in NLP
+cover_subtitle: Proceedings of the Workshop
 editors:
 - first_name: Aleksandr
   last_name: Drozd
-- first_name: João
+- first_name: "Jo\xE3o"
   last_name: Sedoc
 - first_name: Shabnam
   last_name: Tafreshi
@@ -18,3 +18,4 @@ isbn: 979-8-89176-240-4
 location: Albuquerque, New Mexico
 publisher: Association for Computational Linguistics
 start_date: 2025-05-04
+volume_name: 1
